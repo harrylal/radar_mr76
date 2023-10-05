@@ -1,0 +1,11 @@
+<launch>
+
+    <node pkg="radar_mr76" type="radar_publisher" name="radar_node"
+        output="screen" />
+
+    <!--  name spacing all parameters with radar-->
+    <group ns="radar">
+        <rosparam file="$(find radar_mr76)/config/params.yml" />
+    </group>
+
+</launch>

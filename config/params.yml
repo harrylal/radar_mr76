@@ -1,0 +1,3 @@
+use_pathbased_filter: false
+path_width_meters: 2.44
+path_length_meters: 170
