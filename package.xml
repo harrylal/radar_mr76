@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>radar_mr76</name>
+  <version>0.0.1</version>
+  <description>
+    This ROS package provides an interface for communicating with the Nanoradar MR76,
+    enabling ROS-based applications to access data from the MR76 radar sensor.
+  </description>
+
+  <maintainer email="harrylal@gmail.todo">harry</maintainer>
+
+
+  <license>MIT Licence</license>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>radar_msgs</build_depend>
+  <build_depend>can_msgs</build_depend>
+
+  
+
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>radar_msgs</exec_depend>
+  <exec_depend>can_msgs</exec_depend>
+
+
+  <export>
+  </export>
+</package>
