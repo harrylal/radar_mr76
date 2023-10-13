@@ -64,7 +64,7 @@ catkin build radar_mr76
     roslaunch radar_mr76 radar_publisher.launch
     ```
 
-### Configuration
+## Configuration
 You can edit the configurations in the [params.yaml](config/params.yml) file located in the config directory of this package.
 
 ## License
