@@ -12,12 +12,30 @@
 </p>
 
 
+
+
 This ROS package provides an interface for communicating with the [MR76 NanoRadar ](https://www.nanoradar.com/products/mr76/), enabling ROS-based applications to access data from the MR76 radar sensor.
 
 The MR76 radar outputs data over CAN, so a [CAN to Serial converter](https://www.canusb.com/products/canusb/) is required to connect to the USB of the host device.
 
 
+<!-- <p align="center">
+  <img src="assets/mr76_dim.png"  height="200" style="margin-right: 20px;"/>
+  <img src="assets/can_usb.jpg"   height="200" />
+</p> -->
 
+<div align="center">
+  <div style="display: inline-block; text-align: center; margin: 20px;">
+    <img src="assets/mr76_dim.png"  height="200" style="border: 3px solid #2ecc71; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);" />
+    <br />
+    MR76 NanoRadar
+  </div>
+  <div style="display: inline-block; text-align: center; margin: 20px;">
+    <img src="assets/can_usb.jpg"  height="200" style="border: 3px solid #2ecc71; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);" />
+    <br />
+    CANUSB
+  </div>
+</div>
 
 ## Requirements
 
