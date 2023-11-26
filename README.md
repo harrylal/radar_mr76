@@ -80,7 +80,4 @@ You can edit the configurations in the [params.yaml](config/params.yml) file loc
 ## License
 This ROS package is released under the [MIT License](https://choosealicense.com/licenses/mit/).
 
-## Contact
-if you have any questions or issues, feel free to contact me at
-- Email: [harrylal188@gmail.com](harrylal188@gmail.com)
-- LinkedIn: [Harry](https://www.linkedin.com/in/harry-lal-07583b168)
+`
