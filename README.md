@@ -49,7 +49,7 @@ sudo apt-get install ros-melodic-socketcan-bridge
 ```bash
 mkdir -p catking_ws/src
 cd catking_ws/src
-git clone https://github.com/your-username/radar_mr76.git
+git clone https://github.com/harrylal/radar_mr76.git
 cd ..
 catkin build radar_mr76
 ```
